@@ -7,7 +7,7 @@ package sealedClass;
 // permits should be the last keyword of the class after extends and implement
 
 
-sealed class A extends Object implements Cloneable permits B,C{
+sealed class A extends Object implements SealedInterface permits B,C{
 
 }
 // here if I write final then none of the class can iherit B
