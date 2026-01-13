@@ -2,11 +2,17 @@ package exceptionhandling;
 
 
 
+// these restriction or contract is with checked exception only
+// in the unchecked exception there are not restriction
+
+// parent check krenge toh they want hamare baccha hamse jyda galtiya ni kre
+
+
 /*
 *  Child has  overridden method and parent has a method
 *  which throws exception then child can throw either no exception,same exception or
    child of parent method exception
-   but it ahould throw a higher exception
+   but it should not throw a higher exception
  * */
 class Parent{
     public void show(String name){
