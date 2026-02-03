@@ -3,7 +3,7 @@ package exceptionhandling;
 
 // Custom unchecked exception
 
-class CustomException extends RuntimeException{
+class CustomException extends Exception{
     public CustomException(){
         super();
     }
