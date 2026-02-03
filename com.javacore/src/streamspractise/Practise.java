@@ -465,6 +465,44 @@ int sumOfDigits=String.valueOf(num)
         System.out.println("longest word "+longestWord);
 
 
+  // sum of digits of integer
+        int nums=231;
+        String numStr=String.valueOf(nums);
+       int sumofInt=numStr.chars()
+                .reduce(0,(x,y)->x+(y-'0'));
+        System.out.println("Sum of integer values  "+sumofInt);
+
+
+//        sort the string
+        String name="garima";
+        String sortedName=name.chars().  // asci character
+                mapToObj(ch->(char)ch) // List<Character>
+                .sorted(Comparator.naturalOrder()) // Sorted list of character
+                .map(ch->String.valueOf(ch))
+                .collect(Collectors.joining());
+
+        System.out.println("sortedName "+sortedName);
+
+
+
+        // group anagram
+
+        List<String>anagram=List.of("eat","ate","try","tea","cat","act");
+        Map<String,List<String>>map=anagram.stream()
+                .collect(Collectors.groupingBy(s->s.chars()
+                                .mapToObj(ch->(char)ch)
+                                .sorted(Comparator.naturalOrder())
+                                .map(ch->String.valueOf(ch))
+                                .collect(Collectors.joining(""))
+                        ,Collectors.toList()
+
+                ));
+       List<List<String>>anagramList=map.entrySet().stream()
+                        .map(entry->entry.getValue())
+                                .toList();
+        System.out.println(anagramList);
+
+
 
 
     }

@@ -7,4 +7,15 @@ public class Theory {
  * */
 
 
+/**
+ * Term 1 book chalte the
+ * I m force to carry the whole book even if I dont want to study english
+ * */
+
+
+/**
+ * Interface Segregation says ki don't force the code the implement the
+ * behavior which they don't want ...
+ * */
+
 }

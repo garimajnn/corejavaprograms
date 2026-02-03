@@ -1,0 +1,62 @@
+General Map Interface
+What is the Map interface in Java? What are its key methods?
+How does Map differ from Collection?
+What is a Map.Entry? How is it used?
+How do you iterate over a Map?
+What happens if you insert a duplicate key in a Map?
+Can a Map have null keys or null values?
+How do you check if a key or value exists in a Map?
+What is the difference between put and putIfAbsent?
+SortedMap and NavigableMap
+What is a SortedMap? Which class implements it?
+How does SortedMap maintain order?
+What is a NavigableMap? How is it different from SortedMap?
+What are some important methods of NavigableMap?
+How do you get the first and last entry in a SortedMap or NavigableMap?
+How do you get a sub-map from a SortedMap or NavigableMap?
+HashMap
+What is a HashMap? How does it work internally?
+How does HashMap handle collisions?
+What is the default initial capacity and load factor of a HashMap?
+How does resizing work in HashMap?
+Is HashMap thread-safe? How can you make it thread-safe?
+What is the time complexity of get and put operations in HashMap?
+Can you store null keys and values in a HashMap?
+What happens if two keys have the same hash code in a HashMap?
+How does HashMap use hashCode() and equals()?
+What is fail-fast behavior in HashMap?
+What is the difference between HashMap and Hashtable?
+What is the impact of poor hashCode() implementation on HashMap performance?
+LinkedHashMap
+What is a LinkedHashMap? How is it different from HashMap?
+How does LinkedHashMap maintain insertion order?
+Can you use LinkedHashMap for implementing an LRU cache? How?
+What is the performance difference between HashMap and LinkedHashMap?
+TreeMap
+What is a TreeMap? How does it maintain order?
+What is the underlying data structure of a TreeMap?
+Can you store null keys or values in a TreeMap?
+How does TreeMap compare keys?
+What is the time complexity of operations in TreeMap?
+How do you get a range of keys in a TreeMap?
+What is the difference between TreeMap and HashMap?
+WeakHashMap
+What is a WeakHashMap? How does it work?
+What is a weak reference? How does it affect garbage collection in WeakHashMap?
+When would you use a WeakHashMap?
+What happens to an entry in a WeakHashMap when its key is no longer referenced elsewhere?
+What is the difference between HashMap and WeakHashMap?
+Comparisons and Use Cases
+When would you use HashMap vs TreeMap vs LinkedHashMap vs WeakHashMap?
+What are the differences in ordering between these map implementations?
+Which map implementation would you use for thread safety?
+How do you synchronize a Map?
+How do you implement a custom key class for use in a Map?
+What are the best practices for using maps in Java?
+Practical/Code Questions
+Write code to find the first non-repeating character in a string using a HashMap.
+How do you count the frequency of words in a text using a Map?
+How do you remove entries from a Map while iterating?
+How do you sort a HashMap by values?
+How do you merge two maps?
+How do you implement a cache using a Map?

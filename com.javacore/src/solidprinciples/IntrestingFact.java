@@ -20,6 +20,7 @@ public class IntrestingFact {
  * developers directly CEO s baat ni krega wo Manager s baat krega
  * and kl ko developer change ho rhe hai toh CEO ko pata nahi hona chahiye
  * Usko bss uska kaam manager ko bolna chahiye
+ *
  * */
 
 

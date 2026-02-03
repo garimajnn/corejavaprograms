@@ -27,3 +27,4 @@ class UserService{
 
 
 // If tomoroww casssandra m store krna hai toh userservice k logic bhi change hoga
+// here client should be aware about interface only not about concrete classes

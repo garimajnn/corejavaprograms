@@ -15,6 +15,7 @@ class MongoDbDatabase implements Database{
 }
 
 // now this is loosely coupled
+// yaha client ko sirf interface ka pata hai
 class UserService{
     Database db;
     public UserService(Database database){
@@ -25,3 +26,4 @@ class UserService{
     }
 }
 
+// dependency should be on interface not on concrete classs

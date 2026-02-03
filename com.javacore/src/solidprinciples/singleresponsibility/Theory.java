@@ -3,9 +3,10 @@ package solidprinciples.singleresponsibility;
 public class Theory {
 
 /**
- *
- *
- *
+ * Single Responsibility means a module should have functionlity realted to one actor only
+ * It should have single reason to change.
+ * A module should be responsible to one, and only one, actor
+ *A module should have one, and only one, reason to change.
  * Agar hamare application mein tight coupling hogi toh changes krne mein bht problem hogi
  *
  *
